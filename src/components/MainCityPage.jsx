@@ -120,10 +120,10 @@ const MyMainCityPage = (props) => {
       {weatherCity && (
         <Container>
           <Row lg={2} xs={1}>
-            <Col>
+            <Col className="d-flex flex-column justify-content-between">
               <div className="d-flex flex-column align-items-start back-color p-3 rounded rounded-2">
-                <div className="d-flex flex-column justify-content-between align-items-start mt-4">
-                  <h1>Search a new city</h1>
+                <div className="d-flex flex-column justify-content-between align-items-start">
+                  <h3>Discover the weather in:</h3>
                   <Form className="d-flex mt-2" onSubmit={handleSearch}>
                     <Form.Control
                       type="search"
@@ -143,8 +143,8 @@ const MyMainCityPage = (props) => {
                 </div>
               </div>
               <div className="d-flex flex-column align-items-start back-color p-3 rounded rounded-2 mt-4">
-                <div className="d-flex justify-content-start align-items-end">
-                  <h1 className="display-1">
+                <div className="d-flex justify-content-start align-items-between">
+                  <h1 className="display-1 fw-semibold">
                     {fromKelvinToCelsius(weatherCity.main.temp)}°
                   </h1>
                   <img
@@ -158,7 +158,10 @@ const MyMainCityPage = (props) => {
                 <h3 className="fw-bold "> {coordinates.name}</h3>
 
                 <p className="fs-5">
-                  {new Date(weatherCity.dt * 1000).toDateString()} | H:
+                  {new Date(weatherCity.dt * 1000).toDateString()}
+                </p>
+                <p>
+                H:
                   {fromKelvinToCelsius(weatherCity.main.temp_max)}° | L:
                   {fromKelvinToCelsius(weatherCity.main.temp_min)}°
                 </p>
