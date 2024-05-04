@@ -160,6 +160,9 @@ const MyMainCityPage = (props) => {
                     alt=""
                     width="100"
                     height="100"
+                    style={{
+                      animation: "pulsate 1s linear infinite",
+                    }}
                   />
                 </div>
 
@@ -207,6 +210,9 @@ const MyMainCityPage = (props) => {
                               alt="weather icon"
                               width="50"
                               height="50"
+                              style={{
+                                animation: "pulsate 1s linear infinite",
+                              }}
                             />
                           </Col>
                           <Col className="text-center text-md-start">

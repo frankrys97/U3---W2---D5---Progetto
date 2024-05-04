@@ -31,6 +31,18 @@ footer {
   box-shadow: 3px 3px 8px 0px #a9a8a8;
 }
 
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 .btn-geo {
   background-color: #003859;
   color: white;
