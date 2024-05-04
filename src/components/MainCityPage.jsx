@@ -166,7 +166,7 @@ const MyMainCityPage = (props) => {
             </Col>
             <Col>
               <div className="back-color p-3 rounded rounded-2 mt-4 mt-lg-0">
-                <h3 className="fw-bold">5 days forecast</h3>
+                <h3 className="fw-bold">5-Day Forecast</h3>
                 <hr />
                 {weather5days && (
                   <div>
