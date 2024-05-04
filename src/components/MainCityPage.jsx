@@ -213,7 +213,7 @@ const MyMainCityPage = (props) => {
                             <p>{fromKelvinToCelsius(item.main.temp)}°</p>
                           </Col>
                           <Col className="d-none d-md-block">
-                            <p>Humidity: {item.main.humidity}%</p>
+                            <p>Humidity {item.main.humidity}%</p>
                           </Col>
                           <Col className="d-none d-md-block">
                             <p>{item.weather[0].description}</p>
