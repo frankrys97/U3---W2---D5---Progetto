@@ -142,7 +142,7 @@ const MyMainCityPage = (props) => {
                   </Form>
                 </div>
               </div>
-              <div className="d-flex flex-column align-items-start back-color p-3 rounded rounded-2">
+              <div className="d-flex flex-column align-items-start back-color p-3 rounded rounded-2 mt-4">
                 <div className="d-flex justify-content-start align-items-end">
                   <h1 className="display-1">
                     {fromKelvinToCelsius(weatherCity.main.temp)}°
