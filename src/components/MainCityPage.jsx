@@ -1,5 +1,13 @@
 import { useEffect, useState } from "react";
-import { Button, Col, Container, Form, Row, Spinner } from "react-bootstrap";
+import {
+  Badge,
+  Button,
+  Col,
+  Container,
+  Form,
+  Row,
+  Spinner,
+} from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import NotFound from "./NotFoundPage";
 
@@ -118,7 +126,7 @@ const MyMainCityPage = (props) => {
       )}
       {!coordinates && !isLoading && <NotFound />}
       {weatherCity && (
-        <Container>
+        <Container className="my-5">
           <Row lg={2} xs={1}>
             <Col className="d-flex flex-column justify-content-between">
               <div className="d-flex flex-column align-items-start back-color p-3 rounded rounded-2">
@@ -160,11 +168,16 @@ const MyMainCityPage = (props) => {
                 <p className="fs-5">
                   {new Date(weatherCity.dt * 1000).toDateString()}
                 </p>
-                <p>
-                H:
-                  {fromKelvinToCelsius(weatherCity.main.temp_max)}° | L:
-                  {fromKelvinToCelsius(weatherCity.main.temp_min)}°
-                </p>
+                <div className="d-flex align-items-center gap-2">
+                  <Badge bg="info">
+                    MIN:
+                    {fromKelvinToCelsius(weatherCity.main.temp_min)}°
+                  </Badge>
+
+                  <Badge bg="warning">
+                    MAX: {fromKelvinToCelsius(weatherCity.main.temp_max)}°
+                  </Badge>
+                </div>
               </div>
             </Col>
             <Col>
