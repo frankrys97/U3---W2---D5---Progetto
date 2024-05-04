@@ -29,3 +29,8 @@ footer {
   background-color: #0038591f;
   box-shadow: 3px 3px 8px 0px #a9a8a8;
 }
+
+.btn-geo {
+  background-color: #003859;
+  color: white;
+}
