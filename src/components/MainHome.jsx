@@ -19,7 +19,7 @@ const MyMain = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    navigate(`/home/:${search}`);
+    navigate(`/home/${search}`);
   };
 
   const handleGeolocation = () => {
@@ -77,11 +77,9 @@ const MyMain = () => {
                 value={search}
                 onChange={(event) => setSearch(event.target.value)}
                 placeholder="Search"
-                className="me-2 rounded rounded-0 border-top-0 border-end-0 border-start-0 text-white custom-placeholder"
+                className="me-2 rounded rounded-0 border-top-0 border-end-0 border-start-0 rounded rounded-2 custom-placeholder"
                 aria-label="Search"
-                style={{
-                  backgroundColor: "transparent",
-                }}
+                
               />
               <Button variant="warning" type="submit">
                 <i className="bi bi-search"></i>
