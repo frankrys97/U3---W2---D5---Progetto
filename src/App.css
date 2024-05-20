@@ -50,3 +50,7 @@ footer {
   color: white;
   border: 0;
 }
+
+.background-video {
+ pointer-events: none;
+}

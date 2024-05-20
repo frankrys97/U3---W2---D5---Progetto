@@ -7,6 +7,8 @@ const MyVideo = () => {
       muted
       loop
       controls={false}
+      playsInline
+      className="background-video"
       style={{
         position: "fixed",
         width: "100%",
