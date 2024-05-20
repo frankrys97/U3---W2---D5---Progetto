@@ -8,7 +8,7 @@ const MyHome = () => {
     <div className="Home">
       <BackgroundVideo />
       <MyNavBar />
-      <MyMain  className="mb-5"/>
+      <MyMain />
       <MyFooter/>
     </div>
   );

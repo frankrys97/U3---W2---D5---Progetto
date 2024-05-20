@@ -35,7 +35,7 @@ const MyFooter = () => {
       <section>
         <Container className="text-center text-md-start">
           <Row className="mt-3">
-            <Col md="3" lg="4" xl="3" className="mx-auto mb-4">
+            <Col className="mx-auto mb-4">
               <div className="d-flex flex-column gap-2">
                 <h6 className=" text-warning fw-bold">
                   <i className="bi bi-gem"></i> SkySense
@@ -47,7 +47,7 @@ const MyFooter = () => {
               </div>
             </Col>
 
-            <Col md="3" lg="2" xl="2" className="mx-auto">
+            <Col  className="mx-auto">
               <div className="d-flex flex-column gap-2">
                 <h6 className=" text-warning fw-bold">Q&A</h6>
                 <Link className="footer-link" to="/">
@@ -63,7 +63,7 @@ const MyFooter = () => {
               </div>
             </Col>
 
-            <Col md="4" lg="3" xl="3" className="mx-auto mb-md-0 mt-2 mt-md-0">
+            <Col  className="mx-auto mb-md-0 mt-2 mt-md-0">
               <div className="d-flex flex-column gap-2">
                 <h6 className=" text-warning fw-bold">Contact</h6>
                 <p>

@@ -64,8 +64,8 @@ const MyMain = () => {
   };
 
   return (
-    <Container className="d-flex flex-column align-items-center justify-content-center mt-5">
-      <Row>
+    <Container className="d-flex flex-column align-items-center justify-content-center mt-3">
+      <Row >
         <Col lg={12}>
           <div className="d-flex flex-column align-items-center justify-content-center">
             <h1 className="display-2 text-white fw-bold">
