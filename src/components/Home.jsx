@@ -9,7 +9,7 @@ const MyHome = () => {
       <BackgroundVideo />
       <MyNavBar />
       <MyMain />
-      <MyFooter />
+      <MyFooter className="position-fixed bottom-0" />
     </div>
   );
 };
