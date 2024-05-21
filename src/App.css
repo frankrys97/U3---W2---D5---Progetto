@@ -17,9 +17,6 @@ footer p {
 
 .Home {
   height: 100vh;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
 
 footer {
