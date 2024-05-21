@@ -5,11 +5,14 @@ import BackgroundVideo from "./BackgroundVideo";
 
 const MyHome = () => {
   return (
-    <div className="Home">
+    <div>
       <BackgroundVideo />
-      <MyNavBar />
-      <MyMain />
-      <MyFooter/>
+
+      <div className="Home">
+        <MyNavBar />
+        <MyMain />
+        <MyFooter />
+      </div>
     </div>
   );
 };
