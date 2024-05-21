@@ -7,10 +7,13 @@ const MyCityPage = () => {
   const params = useParams();
 
   return (
-    <div className="Home ">
+    <div>
       <BackgroundVideo />
-      <MyNavBar />
-      <MyMainCityPage cityName={params.cityName} />
+
+      <div className="Home ">
+        <MyNavBar />
+        <MyMainCityPage cityName={params.cityName} />
+      </div>
     </div>
   );
 };
