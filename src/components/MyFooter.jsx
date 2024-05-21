@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const MyFooter = () => {
   return (
-    <footer className="text-center text-lg-start text-white position-fixed bottom-0">
+    <footer className="text-center text-lg-start text-white ">
       <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
         <div className="me-5 d-none d-lg-block">
           <strong>Get connected with us on social networks:</strong>
