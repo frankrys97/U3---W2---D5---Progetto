@@ -36,7 +36,7 @@ const MyFooter = () => {
         <Container className="text-center text-md-start">
           <Row className="mt-3">
             <Col className="mx-auto mb-4">
-              <div className="d-flex flex-column gap-2">
+              <div className="d-flex flex-column gap-2 align-items-center">
                 <h6 className=" text-warning fw-bold">
                   <i className="bi bi-gem"></i> SkySense
                 </h6>
@@ -48,7 +48,7 @@ const MyFooter = () => {
             </Col>
 
             <Col  className="mx-auto">
-              <div className="d-flex flex-column gap-2">
+              <div className="d-flex flex-column gap-2 align-items-center">
                 <h6 className=" text-warning fw-bold">Q&A</h6>
                 <Link className="footer-link" to="/">
                   Pricing
@@ -64,7 +64,7 @@ const MyFooter = () => {
             </Col>
 
             <Col  className="mx-auto mb-md-0 mt-2 mt-md-0">
-              <div className="d-flex flex-column gap-2">
+              <div className="d-flex flex-column gap-2 align-items-center">
                 <h6 className=" text-warning fw-bold">Contact</h6>
                 <p>
                   <i className="bi bi-house-door-fill"></i> New York, NY 10012,
