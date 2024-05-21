@@ -37,7 +37,7 @@ const MyFooter = () => {
           <Row className="mt-3">
             <Col className="mx-auto mb-4">
               <div className="d-flex flex-column gap-2 align-items-center">
-                <h6 className=" text-warning fw-bold">
+                <h6 className=" text-warning fw-bold align-self-start">
                   <i className="bi bi-gem"></i> SkySense
                 </h6>
                 <p>
