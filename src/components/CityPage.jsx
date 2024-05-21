@@ -10,10 +10,8 @@ const MyCityPage = () => {
     <div>
       <BackgroundVideo />
 
-      <div className="Home ">
-        <MyNavBar />
-        <MyMainCityPage cityName={params.cityName} />
-      </div>
+      <MyNavBar />
+      <MyMainCityPage cityName={params.cityName} />
     </div>
   );
 };
