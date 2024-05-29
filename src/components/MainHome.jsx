@@ -55,7 +55,7 @@ const MyMain = () => {
       .then((data) => {
         const cityName = data[0].name;
         console.log("City Name:", cityName);
-        navigate(`/home/:${cityName}`);
+        navigate(`/home/${cityName}`);
       })
       .catch((error) => {
         console.log(error);
